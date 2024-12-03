@@ -19,7 +19,7 @@ header h1 {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: silver;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -45,3 +45,24 @@ ul li {
     padding: 10px;
     border-radius: 4px;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  .back-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .back-link:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
